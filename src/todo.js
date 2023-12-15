@@ -1,4 +1,4 @@
-var todos = [];
+var todos = [{title: "test", description: "test", dueDate: "12/1/2023", priority: "no"}];
 
 
 function createToDo(title, description, dueDate, priority)

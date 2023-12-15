@@ -67,12 +67,12 @@ button
 .modal form
 {
     background-color: white;
-    height: 40%;
+    height: 70%;
     width: 40%;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    gap: 20px;
+    gap: 10px;
 }
 
 #modal_add
@@ -80,6 +80,20 @@ button
     background-color: rgb(46, 223, 46);
     width: 30%;
     align-self: center;
-    font-size: 30px;
+    font-size: 20px;
+    height: 40px;
 }
 
+
+#description
+{
+    height: 300px;
+}
+
+/* TODOS CONTAINER */
+.todo
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
